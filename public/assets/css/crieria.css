@@ -1,0 +1,79 @@
+body, html {
+      
+     background-image: url(../images/background.jpg);
+     background-size: cover;
+
+}
+
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.login-box{
+margin-top: 150px;
+padding-right: 50%;
+
+}
+
+.dot {
+    float: right;
+  height: 250px;
+  width: 250px;
+  background-color: #fff;
+    margin: 10% ;
+  border-radius: 50%;
+  display: inline-block;
+}
+.tab{
+    padding: 30px;
+}
+
+.tab-form{
+    margin: 5%  ;
+    width: 30%;
+}
+.form-container{
+  padding:10px;
+  padding-bottom:25px;
+  margin:0 auto;
+  margin-top:20px;
+  border-radius:20px;
+  background-color: #ececec;
+}
+
+.add-one{
+  color:green;
+  text-align:center;
+  font-weight:bolder;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+.delete{
+  color:white;
+  background-color:rgb(231, 76, 60);
+  text-align:center;
+  margin-top:6px;
+  font-weight:700;
+  border-radius:5px;
+  min-width:20px;
+  cursor:pointer;
+}
+
+
+
+
+.dynamic-element{
+  margin-bottom:0px;
+}
+
+.footer{
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;width: 100%;
+     position: fixed;
+  bottom: 0;
+}

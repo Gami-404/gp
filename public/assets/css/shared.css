@@ -1,0 +1,10 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container-fluid{
+      padding: 0;
+    margin: 0;
+}
+

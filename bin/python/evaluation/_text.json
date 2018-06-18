@@ -1,0 +1,80 @@
+{
+  "id": 45,
+  "cv": {
+    "educations": [
+      {
+        "key": "educations",
+        "section": "Education\n\n      2013 Masters of Technology in VLSI Design And Embedded Systems, Visvesvaraya\n\n           Technological University, Belgaum, Percentage – 71.7.\n\n            First Class Distinction\n\n      2010 Bachelor of Engineering, Visvesvaraya Technological University, Belgaum, Per-\n\n           centage – 61.0.\n\n            Specialized in Electronics and Communication\n\n\n\n            Masters Thesis\n\n      Title DESIGN AND IMPLEMENTATION OF WEB BASED POWER QUALITY ANA-\n\n            LYZER ON ARM Cortex M3\n\n\n\n            Bachelors Thesis\n\n      Title DESIGN AND IMPLEMENTATION OF POWER QUALITY ANALYZER ON PIC\n\n            MICROCONTROLLER\n\n\n\n\n\n\n\n\n\n                39, 8th main – B T M Layout 1st stage,Bangalore -560029\n\n                        919620533500 •       mdbilal@outlook.com\n\n               Project Experience\n\n   Design Of A Smart lock which can be operated from a Smart Phone via Bluetooth.Designed\n\n  Smart Lock the whole system, and performed the necessary functionality tests and monitor the\n\n             design of RF Board\n\n               , .\n\n   Design Of   It is a general purpose board werein the client can access the banks of the FPGA\n\n  Spartan 3E   to enact as an Emulator. This board is provided with the basic interface like the\n\n  DSP FPGA     clock synthesizers, PROM and Input Output Pins. The clock frequency can be\n\n Based Board   programmed and the program can be stored in the PROM\n\n               , .\n\nDiﬀused laser Laser therapy treatment unit for hair growth was designed. Diﬀused Lasers were\n\n   based hair utilized, and a Driver circuit was designed. A charger circuit was built inside to\n\n   re-growth charge the battery.\n\n therapy unit\n\n               , .\n\nHigh precision The project is to identify the variation in X, Y and Z axis. The obtained data was\n\n       Digital transferred to Arduino Due board through SPI Interface. Nine Gyro scopes were\n\n   Gyroscope used to increase precision, and were individually controlled\n\n\n"
+      }
+    ],
+    "experiences": [
+      {
+        "key": "experiences",
+        "section": "Experience\n\nAugust 2013- Hardware Design Engineer, Picosem Technologies pvt ltd, Bangalore.\n\n    Present\n\n Oct 2014- Market Research Analyst FREELANCER , , Bangalore.\n\nMarch 2015\n\nMarch 2013- Intern, Picosem Technologies pvt ltd, Bangalore.\n\nAugust 2013\n\n June 2013- Corporate Trainer (PART TIME) , Globals Research Innovation And\n\n  Aug 2013 Development , Bangalore.\n\n            On Contract\n\n  Oct 2010- Technical Support Representative, E4E Business Solutions PVT LTD,\n\n  Jan 2011 Bangalore.\n\n\n"
+      },
+      {
+        "key": "work_experience",
+        "section": "Work Experience\n\nAugust 2013- Hardware Design Engineer, Picosem Technologies pvt ltd, Bangalore.\n\n    Present\n\n Oct 2014- Market Research Analyst FREELANCER , , Bangalore.\n\nMarch 2015\n\nMarch 2013- Intern, Picosem Technologies pvt ltd, Bangalore.\n\nAugust 2013\n\n June 2013- Corporate Trainer (PART TIME) , Globals Research Innovation And\n\n  Aug 2013 Development , Bangalore.\n\n            On Contract\n\n  Oct 2010- Technical Support Representative, E4E Business Solutions PVT LTD,\n\n  Jan 2011 Bangalore.\n\n\n"
+      }
+    ],
+    "personal_data": [
+      {
+        "key": "achievements",
+        "section": "Achievements\n\n        2008   Designed Charger For Electronic Ticketing Machine For KSRTC\n\n        2012   Google scholar citation : Link\n\n        2013   Reviewer of 2012 International Journal of Research in Engineering and Science\n\n        2015   Patent ﬁled in India for Programmable Power Socket - 3019/CHE/2015\n\n               , .\n\n\n\n\n\n                     39, 8th main – B T M Layout 1st stage,Bangalore -560029\n\n                             919620533500 •       mdbilal@outlook.com\n\n \n"
+      }
+    ],
+    "others": [
+      {
+        "key": "publications",
+        "section": "Publications\n\n1. Mohammed Bilal \"Attendance Logging In Webserver Using Multi Node Embedded System\n\n   Connected Through Wi-Fi Link\n\n2. Hemant Palivela, Mohammad Bilal \"An Adaptive approach combining accelerative aging and\n\n   IPSec to combat against DDos attack in networks\", in proceedings of National conference\n\n   on Communication and Computing, Acharya Institute of Technology, Bangalore, 22nd - 24th\n\n   September 2011.\n\n—————————————————————————————-\n\n\n"
+      }
+    ],
+    "skills": [
+      {
+        "key": "technical_skills",
+        "section": "Technical skills\n\nProgramming Verilog, Embedded C,C, Python\n\n   Languages\n\nTools and OS Orcad Capture, Xilinx, Keil, MATLAB, PROTEUS, CAM 350, Microsoft\n\n             Windows, Server 2003,Ubuntu\n\n Ceriﬁcations Microsoft Certiﬁed Solution Associate\n\n\n"
+      }
+    ]
+  },
+  "criteria": {
+    "educations": {
+      "university": "amaba",
+      "faculty": "dsaf dsf",
+      "courses": [
+        "php",
+        "css",
+        "javascript",
+        "jquery"
+      ],
+      "gpa": "5"
+    },
+    "experiences": {
+      "years": "+1 year",
+      "internships": [
+        "Abdo mota"
+      ],
+      "organizations": [
+        "dms"
+      ]
+    },
+    "personal_data": {
+      "military_status": "Exemption",
+      "age": "5"
+    },
+    "skills": [
+      {
+        "name": "css",
+        "proficiency": "5"
+      },
+      {
+        "name": "php",
+        "proficiency": "5"
+      },
+      {
+        "name": "javascript",
+        "proficiency": "4"
+      }
+    ],
+    "others": null
+  }
+}

@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+    background-image: url(../images/background.jpg);
+    background-size: cover;    
+
+}
+
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+.login-box{
+margin-top: 50px;
+padding-right: 50%;
+
+}
+
+
+
+.footer{
+     background-color: #008CBA;
+    color: white;
+    padding: 10px;width: 100%;
+}
