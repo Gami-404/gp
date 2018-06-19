@@ -28,7 +28,7 @@
                        aria-haspopup="true"
                        aria-expanded="false">{{fauth()->user()->first_name .' '. fauth()->user()->last_name}}</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Edit Profile</a>
+                        <a class="dropdown-item" href="{{route('profile.edit')}}">Edit Profile</a>
                         <a class="dropdown-item" href="{{route('root')}}">Upload new Cv</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" id="item"  href="{{route('logout')}}">Logout</a>
