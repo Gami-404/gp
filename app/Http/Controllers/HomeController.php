@@ -33,4 +33,24 @@ class HomeController extends Controller
     {
         return view('upload');
     }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function profile(Request $request)
+    {
+        if ($request->isMethod('post')) {
+            $request->validate([
+                'first_name' => 'required',
+                'last_name' => 'required',
+                'email' => 'required|email',
+            ]);
+            $user=fauth()->user();
+            $user->first_name=$request->get('first_name');
+            $user->last_name=$request->get('last_name');
+            $user->email=$request->get('email');
+            $user->save();
+        }
+        return view('edit-profile');
+    }
 }

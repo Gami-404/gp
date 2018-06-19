@@ -1,0 +1,28 @@
+body, html {
+  height: 100%;
+    
+    background-size: cover;
+
+}
+
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.login-box{
+margin-top: 50px;
+
+}
+
+
+
+.footer{
+    margin-top: 50px;
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;width: 100%;
+  bottom: 0;
+}

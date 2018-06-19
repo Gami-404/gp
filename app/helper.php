@@ -20,3 +20,18 @@ if (!function_exists('getParserPath')) {
         return base_path('bin/parser/production.js');
     }
 }
+
+
+/**
+ *
+ */
+if (!function_exists('getEvaluatorPath')) {
+
+    /**
+     * @return string
+     */
+    function getEvaluatorPath()
+    {
+        return base_path('bin/python/evaluation/execute_data.py');
+    }
+}

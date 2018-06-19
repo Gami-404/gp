@@ -9,6 +9,7 @@ $('.add-one').click(function(){
 function attach_delete(){
   $('.delete').off();
   $('.delete').click(function(){
+    console.log("click");
     $(this).closest('.form-group').remove();
   });
 }

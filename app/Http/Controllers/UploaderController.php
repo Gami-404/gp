@@ -81,12 +81,13 @@ class UploaderController extends Controller
     }
 
     /**
-     *
+     * File path
+     * @param $path
+     * @return bool|string
      */
     protected function getParseJson($path)
     {
         $return = null;
-        \Log::debug("node " . getParserPath() . ' "' . $path . '"');
         return (system("node " . getParserPath() . ' "' . $path . '"', $return));
     }
 }

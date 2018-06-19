@@ -197,11 +197,9 @@ class AuthController extends Controller
      *
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
-    function logout()
+    function logout(Request $request)
     {
-
         fauth()->logout();
-
         return redirect("/");
     }
 }

@@ -1,5 +1,5 @@
 <!--navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav style="top: 0;position: fixed;width: 100%;" class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="{{route('root')}}">Cv Processing</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
             aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
@@ -30,14 +30,14 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">Edit Profile</a>
                         <a class="dropdown-item" href="{{route('root')}}">Upload new Cv</a>
-                        <a class="dropdown-item" href="#">View History</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="{{route('logout')}}">Logout</a>
+                        <a class="dropdown-item" id="item"  href="{{route('logout')}}">Logout</a>
                     </div>
                 </li>
             @endif
         </ul>
     </div>
 </nav>
+
 
 <!--navbar-->

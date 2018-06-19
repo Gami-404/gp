@@ -100,14 +100,6 @@
                         <div id="organizations-error"></div>
                     </div>
 
-                    <div class="form-group">
-                        <h4><i class="glyphicon glyphicon-lock"></i>Projects</h4>
-                        <select name="educations[projects][]" multiple="multiple" class="form-control"
-                                id="inputProjects"></select>
-                        <div id="projects-error"></div>
-
-                    </div>
-
                 </div>
 
             </div>
@@ -201,6 +193,8 @@
 
 @endsection
 
+
+
 @push('js')
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/shared.css">
@@ -228,5 +222,20 @@
                 tags: true
             });
         })
+    </script>
+    <script src="/assets/js/output.js"></script>
+    <script src="/assets/js/jquery.dataTables.min.js">
+
+    </script>
+    <script src="/assets/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            debugger;
+            $('#example').dataTable({
+                "bDestroy": true,
+                "ordering": false,
+            });
+
+        });
     </script>
 @endpush

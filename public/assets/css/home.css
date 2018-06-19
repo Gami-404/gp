@@ -1,15 +1,16 @@
+
+
+
 body, html {
-  height: 100%;
-        background-image: url(../images/background.jpg);
-    background-size: cover;
+//  height: 100%;
+ //background-image: url(../fonts/fa-brands-400.eot)
 
 }
 
 
-.container-fluid{
-    margin: 0;
-    padding: 0;
-    height: 100%;
+.cover{
+   height: 200px;
+    display: block;
 }
 
 .login-box{
@@ -18,12 +19,14 @@ padding-right: 50%;
 
 }
 
-
+.carousel-item{
+   height:  550px;
+}
 
 .footer{
     background-color: #008CBA;
     color: white;
     padding: 10px;width: 100%;
-     position: absolute;
+     position: fixed;
   bottom: 0;
 }
