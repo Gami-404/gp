@@ -53,4 +53,15 @@ class HomeController extends Controller
         }
         return view('edit-profile');
     }
+
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function home()
+    {
+        return view('home');
+    }
 }

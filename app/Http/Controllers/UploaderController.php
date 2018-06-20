@@ -90,4 +90,12 @@ class UploaderController extends Controller
         $return = null;
         return (system("node " . getParserPath() . ' "' . $path . '"', $return));
     }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function showForm()
+    {
+        return view('upload');
+    }
 }

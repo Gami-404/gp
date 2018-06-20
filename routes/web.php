@@ -23,6 +23,7 @@ Route::post('/register', 'AuthController@register')->name('register');
 
 
 Route::post('/cvs/upload', 'UploaderController@uploads')->name('cvs.upload');
+Route::get('/cvs/upload', 'UploaderController@showForm')->name('cvs.upload');
 
 
 // Searches
@@ -30,5 +31,13 @@ Route::get('/search', 'SearchController@searchForm')->name('search.form');
 Route::any('/profile', 'HomeController@profile')->name('profile.edit');
 Route::post('/search', 'SearchController@search')->name('search');
 
+// CVs
+Route::get('/history', 'CvsConrtoller@index')->name('cvs.history');
+Route::get('/cvs/{id}/delete', 'CvsConrtoller@delete')->name('cvs.delete');
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+// Send e-mail
+Route::post('/mail/contact', 'MailController@send')->name('mail.contact');
+
+
+Route::get('/home', 'HomeController@home')->name('home');
