@@ -67,7 +67,7 @@ class SearchController extends Controller
             $cv->personal_data = $output[2];
             $cv->skills = $output[3];
         }
-        $cvs->sortByDesc('score');
+        $cvs = $cvs->sortByDesc('score');
         return view('results', ['results' => $cvs]);
 
     }

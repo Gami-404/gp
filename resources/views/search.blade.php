@@ -136,7 +136,7 @@
                         <!-- Replace these fields -->
                         <div class="col-md-4">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="inputProjects" name="skills[name][]"
+                                <input type="text" class="form-control" id="inputSkills" name="skills[name][]"
                                        placeholder="Name"/>
                             </div>
                         </div>

@@ -380,6 +380,10 @@ input[type="file"]:focus {
     background: #4DB6AC;
     border-radius: 5px;
 }
+.nav-tabs {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-top: 50px;
+}
 
 @media (min-width: 769px) {
     .plupload_file_name {
